@@ -4,5 +4,5 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-public interface Pay_DetailsRepository extends JpaRepository<PayDetails, Integer>{
+public interface Pay_DetailsRepository extends JpaRepository<Pay_Details, Integer>{
 }

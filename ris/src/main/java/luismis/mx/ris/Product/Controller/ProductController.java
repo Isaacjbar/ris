@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/product")
 public class ProductController {
-
+    /*
     @Autowired
     private ProductService productService;
 
@@ -31,5 +31,6 @@ public class ProductController {
     public ResponseEntity<Message> changeProductStatus(@Validated(ProductDTO.CambiarEstado.class) @RequestBody ProductDTO dto) {
         return productService.changeStatus(dto);
     }
+    */
 }
 

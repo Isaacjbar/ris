@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/pay")
 public class PayController {
-
+    /*
     private final PayService payService;
 
     @Autowired
@@ -37,4 +37,5 @@ public class PayController {
     public ResponseEntity<Message> changePaymentStatus(@Validated(PayDTO.CambiarEstado.class) @RequestBody PayDTO dto) {
         return payService.changeStatus(dto);
     }
+     */
 }

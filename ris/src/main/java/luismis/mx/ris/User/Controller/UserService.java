@@ -55,7 +55,7 @@ public class UserService {
 
     @Transactional(rollbackFor = {SQLException.class})
     public ResponseEntity<Message> update(UserDTO dto) {
-        return userRepository.findById(dto.getUserId())
+        return userRepository.findById(dto.getUserId().intValue())
                 .map(user -> {
                     if (dto.getUsername() != null) {
                         if (dto.getUsername().length() > 50) {
@@ -79,7 +79,7 @@ public class UserService {
 
     @Transactional(rollbackFor = {SQLException.class})
     public ResponseEntity<Message> changeStatus(UserDTO dto) {
-        return userRepository.findById(dto.getUserId())
+        return userRepository.findById(dto.getUserId().intValue())
                 .map(user -> {
                     user.setStatus(user.getStatus().equals("active") ? "inactive" : "active");
                     user.setUpdatedAt(LocalDateTime.now());
