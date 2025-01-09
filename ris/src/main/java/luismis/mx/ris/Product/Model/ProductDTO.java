@@ -30,7 +30,7 @@ public class ProductDTO {
     @Size(max = 20, groups = {Registrar.class, Modificar.class}, message = "El estado no puede exceder 20 caracteres")
     private String status;
 
-    public Long getProductId() {
+    public Integer getProductId() {
         return productId;
     }
 
