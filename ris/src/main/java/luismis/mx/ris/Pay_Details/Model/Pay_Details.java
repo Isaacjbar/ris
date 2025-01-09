@@ -3,7 +3,6 @@ package luismis.mx.ris.Pay_Details.Model;
 import jakarta.persistence.*;
 import luismis.mx.ris.Pay.Model.Pay;
 import luismis.mx.ris.Product.Model.Product;
-import luismis.mx.ris.Product.Model.ProductDTO;
 
 import java.sql.Timestamp;
 
