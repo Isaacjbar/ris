@@ -31,7 +31,7 @@ public class ProductDTO {
     private String status;
 
     public Integer getProductId() {
-        return productId;
+        return Math.toIntExact(productId);
     }
 
     public void setProductId(Long productId) {

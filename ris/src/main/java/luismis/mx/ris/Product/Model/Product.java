@@ -1,11 +1,13 @@
 package luismis.mx.ris.Product.Model;
 
 import jakarta.persistence.*;
+import lombok.Data;
 import luismis.mx.ris.Pay_Details.Model.Pay_Details;
 
 import java.sql.Timestamp;
 import java.util.List;
 
+@Data
 @Entity
 @Table(name = "product")
 public class Product {

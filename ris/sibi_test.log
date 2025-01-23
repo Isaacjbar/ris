@@ -1,0 +1,219 @@
+2025-01-13T09:16:25.602-06:00  INFO 22572 --- [ris] [main] luismis.mx.ris.RisApplication            : Starting RisApplication using Java 21.0.4 with PID 22572 (C:\Users\Isaac\Desktop\Repositorios\ris\ris\target\classes started by Isaac in C:\Users\Isaac\Desktop\Repositorios\ris\ris)
+2025-01-13T09:16:25.635-06:00  INFO 22572 --- [ris] [main] luismis.mx.ris.RisApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-01-13T09:16:27.956-06:00  INFO 22572 --- [ris] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-13T09:16:28.058-06:00  INFO 22572 --- [ris] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 88 ms. Found 4 JPA repository interfaces.
+2025-01-13T09:16:29.730-06:00  INFO 22572 --- [ris] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-13T09:16:29.775-06:00  INFO 22572 --- [ris] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-13T09:16:29.775-06:00  INFO 22572 --- [ris] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-13T09:16:29.916-06:00  INFO 22572 --- [ris] [main] o.a.c.c.C.[Tomcat].[localhost].[/ris]    : Initializing Spring embedded WebApplicationContext
+2025-01-13T09:16:29.916-06:00  INFO 22572 --- [ris] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4177 ms
+2025-01-13T09:16:30.954-06:00  INFO 22572 --- [ris] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-13T09:16:31.110-06:00  INFO 22572 --- [ris] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-13T09:16:31.189-06:00  INFO 22572 --- [ris] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-13T09:16:31.778-06:00  INFO 22572 --- [ris] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-13T09:16:31.854-06:00  INFO 22572 --- [ris] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-13T09:16:33.037-06:00  INFO 22572 --- [ris] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@83e5898
+2025-01-13T09:16:33.054-06:00  INFO 22572 --- [ris] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-13T09:16:33.297-06:00  WARN 22572 --- [ris] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-13T09:16:33.301-06:00  WARN 22572 --- [ris] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-01-13T09:16:33.369-06:00  INFO 22572 --- [ris] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-13T09:16:37.098-06:00  INFO 22572 --- [ris] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-13T09:16:37.267-06:00  INFO 22572 --- [ris] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-13T09:16:38.235-06:00  WARN 22572 --- [ris] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-13T09:16:38.317-06:00  INFO 22572 --- [ris] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2025-01-13T09:16:39.109-06:00  INFO 22572 --- [ris] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-01-13T09:16:39.893-06:00  INFO 22572 --- [ris] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ris'
+2025-01-13T09:16:39.910-06:00  INFO 22572 --- [ris] [main] luismis.mx.ris.RisApplication            : Started RisApplication in 15.143 seconds (process running for 18.421)
+2025-01-13T09:16:50.688-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/ris]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-13T09:16:50.688-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-13T09:16:50.688-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-01-13T09:16:50.762-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-6] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: user-agent = PostmanRuntime/7.43.0
+2025-01-13T09:16:50.762-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-6] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: accept = */*
+2025-01-13T09:16:50.762-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-6] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: cache-control = no-cache
+2025-01-13T09:16:50.762-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-6] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: postman-token = b0d7ff1a-b53e-4328-b1d8-343f91536811
+2025-01-13T09:16:50.762-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-6] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: host = localhost:8080
+2025-01-13T09:16:50.768-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-6] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: accept-encoding = gzip, deflate, br
+2025-01-13T09:16:50.768-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-6] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: connection = keep-alive
+2025-01-13T09:17:12.617-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-3] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: content-type = application/json
+2025-01-13T09:17:12.617-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-3] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: user-agent = PostmanRuntime/7.43.0
+2025-01-13T09:17:12.617-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-3] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: accept = */*
+2025-01-13T09:17:12.617-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-3] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: cache-control = no-cache
+2025-01-13T09:17:12.619-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-3] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: postman-token = f4103dea-eaf5-453b-af6f-578baa0c8644
+2025-01-13T09:17:12.619-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-3] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: host = localhost:8080
+2025-01-13T09:17:12.619-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-3] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: accept-encoding = gzip, deflate, br
+2025-01-13T09:17:12.619-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-3] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: connection = keep-alive
+2025-01-13T09:17:12.621-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-3] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: content-length = 79
+2025-01-13T09:17:13.214-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-3] l.m.ris.Security.UserDetailsServiceImpl  : Rol asignado al usuario: ROLE_Unico rol
+2025-01-13T09:17:13.216-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-3] luismis.mx.ris.Security.Jwt.JwtUtil      : Estructura de las claims antes de generar el token: {roles=[ROLE_Unico rol], userId=1}
+2025-01-13T09:18:07.817-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-4] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: authorization = Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6WyJST0xFX1VuaWNvIHJvbCJdLCJ1c2VySWQiOjEsInN1YiI6ImpvaG4uZG9lQGV4YW1wbGUuY29tIiwiaWF0IjoxNzM2NzgxNDMzLCJleHAiOjE3MzY4Njc4MzN9.oiMQIabwjpCakdjwoKcP2F_Km2SOH8c_BJ4k7w8eNpg
+2025-01-13T09:18:07.817-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-4] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: user-agent = PostmanRuntime/7.43.0
+2025-01-13T09:18:07.817-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-4] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: accept = */*
+2025-01-13T09:18:07.817-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-4] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: cache-control = no-cache
+2025-01-13T09:18:07.817-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-4] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: postman-token = f0250736-6ad2-4389-93f0-211193808c94
+2025-01-13T09:18:07.817-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-4] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: host = localhost:8080
+2025-01-13T09:18:07.817-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-4] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: accept-encoding = gzip, deflate, br
+2025-01-13T09:18:07.817-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-4] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: connection = keep-alive
+2025-01-13T09:18:07.817-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-4] l.mx.ris.Security.Jwt.JwtRequestFilter   : Token JWT extraído: eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6WyJST0xFX1VuaWNvIHJvbCJdLCJ1c2VySWQiOjEsInN1YiI6ImpvaG4uZG9lQGV4YW1wbGUuY29tIiwiaWF0IjoxNzM2NzgxNDMzLCJleHAiOjE3MzY4Njc4MzN9.oiMQIabwjpCakdjwoKcP2F_Km2SOH8c_BJ4k7w8eNpg
+2025-01-13T09:18:07.986-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-4] l.m.ris.Security.UserDetailsServiceImpl  : Rol asignado al usuario: ROLE_Unico rol
+2025-01-13T09:18:07.993-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-4] l.mx.ris.Security.Jwt.JwtRequestFilter   : Datos del usuario extraídos del JWT: Correo = john.doe@example.com, ID de usuario = 1, Roles = [ROLE_Unico rol]
+2025-01-13T09:18:08.075-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-4] l.m.r.Product.Controller.ProductService  : La búsqueda de productos se realizó correctamente
+2025-01-13T09:18:29.548-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: host = localhost:8080
+2025-01-13T09:18:29.548-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: connection = keep-alive
+2025-01-13T09:18:29.548-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: sec-ch-ua-platform = "Windows"
+2025-01-13T09:18:29.548-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: user-agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+2025-01-13T09:18:29.548-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: sec-ch-ua = "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+2025-01-13T09:18:29.548-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: sec-ch-ua-mobile = ?0
+2025-01-13T09:18:29.548-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: accept = */*
+2025-01-13T09:18:29.548-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: origin = http://127.0.0.1:5500
+2025-01-13T09:18:29.548-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: sec-fetch-site = cross-site
+2025-01-13T09:18:29.557-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: sec-fetch-mode = cors
+2025-01-13T09:18:29.557-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: sec-fetch-dest = empty
+2025-01-13T09:18:29.557-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: referer = http://127.0.0.1:5500/
+2025-01-13T09:18:29.557-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: accept-encoding = gzip, deflate, br, zstd
+2025-01-13T09:18:29.557-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: accept-language = es-US,es-419;q=0.9,es;q=0.8,en;q=0.7
+2025-01-13T09:18:38.859-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-9] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: host = localhost:8080
+2025-01-13T09:18:38.859-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-9] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: connection = keep-alive
+2025-01-13T09:18:38.859-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-9] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: sec-ch-ua-platform = "Windows"
+2025-01-13T09:18:38.859-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-9] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: user-agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+2025-01-13T09:18:38.859-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-9] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: sec-ch-ua = "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+2025-01-13T09:18:38.859-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-9] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: sec-ch-ua-mobile = ?0
+2025-01-13T09:18:38.859-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-9] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: accept = */*
+2025-01-13T09:18:38.859-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-9] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: origin = http://127.0.0.1:5500
+2025-01-13T09:18:38.859-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-9] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: sec-fetch-site = cross-site
+2025-01-13T09:18:38.859-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-9] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: sec-fetch-mode = cors
+2025-01-13T09:18:38.859-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-9] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: sec-fetch-dest = empty
+2025-01-13T09:18:38.859-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-9] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: referer = http://127.0.0.1:5500/
+2025-01-13T09:18:38.859-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-9] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: accept-encoding = gzip, deflate, br, zstd
+2025-01-13T09:18:38.859-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-9] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: accept-language = es-US,es-419;q=0.9,es;q=0.8,en;q=0.7
+2025-01-13T09:20:54.420-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-8] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: host = localhost:8080
+2025-01-13T09:20:54.421-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-8] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: connection = keep-alive
+2025-01-13T09:20:54.421-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-8] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: accept = */*
+2025-01-13T09:20:54.421-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-8] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: access-control-request-method = GET
+2025-01-13T09:20:54.423-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-8] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: access-control-request-headers = authorization,content-type
+2025-01-13T09:20:54.423-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-8] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: origin = http://127.0.0.1:5500
+2025-01-13T09:20:54.424-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-8] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: user-agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+2025-01-13T09:20:54.424-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-8] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: sec-fetch-mode = cors
+2025-01-13T09:20:54.424-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-8] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: sec-fetch-site = cross-site
+2025-01-13T09:20:54.424-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-8] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: sec-fetch-dest = empty
+2025-01-13T09:20:54.424-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-8] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: referer = http://127.0.0.1:5500/
+2025-01-13T09:20:54.424-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-8] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: accept-encoding = gzip, deflate, br, zstd
+2025-01-13T09:20:54.424-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-8] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: accept-language = es-US,es-419;q=0.9,es;q=0.8,en;q=0.7
+2025-01-13T09:20:59.272-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-1] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: host = localhost:8080
+2025-01-13T09:20:59.274-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-1] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: connection = keep-alive
+2025-01-13T09:20:59.274-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-1] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: accept = */*
+2025-01-13T09:20:59.274-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-1] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: access-control-request-method = GET
+2025-01-13T09:20:59.274-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-1] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: access-control-request-headers = authorization,content-type
+2025-01-13T09:20:59.274-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-1] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: origin = http://127.0.0.1:5500
+2025-01-13T09:20:59.274-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-1] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: user-agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+2025-01-13T09:20:59.274-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-1] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: sec-fetch-mode = cors
+2025-01-13T09:20:59.274-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-1] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: sec-fetch-site = cross-site
+2025-01-13T09:20:59.274-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-1] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: sec-fetch-dest = empty
+2025-01-13T09:20:59.275-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-1] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: referer = http://127.0.0.1:5500/
+2025-01-13T09:20:59.275-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-1] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: accept-encoding = gzip, deflate, br, zstd
+2025-01-13T09:20:59.275-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-1] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: accept-language = es-US,es-419;q=0.9,es;q=0.8,en;q=0.7
+2025-01-13T09:21:29.644-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-3] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: host = localhost:8080
+2025-01-13T09:21:29.644-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-3] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: connection = keep-alive
+2025-01-13T09:21:29.644-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-3] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: accept = */*
+2025-01-13T09:21:29.644-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-3] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: access-control-request-method = GET
+2025-01-13T09:21:29.644-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-3] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: access-control-request-headers = authorization,content-type
+2025-01-13T09:21:29.644-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-3] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: origin = http://127.0.0.1:5500
+2025-01-13T09:21:29.644-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-3] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: user-agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+2025-01-13T09:21:29.644-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-3] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: sec-fetch-mode = cors
+2025-01-13T09:21:29.644-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-3] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: sec-fetch-site = cross-site
+2025-01-13T09:21:29.649-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-3] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: sec-fetch-dest = empty
+2025-01-13T09:21:29.649-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-3] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: referer = http://127.0.0.1:5500/
+2025-01-13T09:21:29.649-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-3] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: accept-encoding = gzip, deflate, br, zstd
+2025-01-13T09:21:29.649-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-3] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: accept-language = es-US,es-419;q=0.9,es;q=0.8,en;q=0.7
+2025-01-13T09:21:54.479-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: host = localhost:8080
+2025-01-13T09:21:54.479-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: connection = keep-alive
+2025-01-13T09:21:54.479-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: accept = */*
+2025-01-13T09:21:54.479-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: access-control-request-method = GET
+2025-01-13T09:21:54.479-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: access-control-request-headers = authorization,content-type
+2025-01-13T09:21:54.479-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: origin = http://127.0.0.1:5500
+2025-01-13T09:21:54.479-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: user-agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+2025-01-13T09:21:54.479-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: sec-fetch-mode = cors
+2025-01-13T09:21:54.479-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: sec-fetch-site = cross-site
+2025-01-13T09:21:54.479-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: sec-fetch-dest = empty
+2025-01-13T09:21:54.483-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: referer = http://127.0.0.1:5500/
+2025-01-13T09:21:54.483-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: accept-encoding = gzip, deflate, br, zstd
+2025-01-13T09:21:54.483-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: accept-language = es-US,es-419;q=0.9,es;q=0.8,en;q=0.7
+2025-01-13T09:37:46.128-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-9] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: content-type = application/json
+2025-01-13T09:37:46.139-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-9] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: user-agent = PostmanRuntime/7.43.0
+2025-01-13T09:37:46.139-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-9] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: accept = */*
+2025-01-13T09:37:46.139-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-9] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: cache-control = no-cache
+2025-01-13T09:37:46.139-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-9] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: postman-token = 5a7b965b-955e-41f9-9833-d4c5a1fb7e77
+2025-01-13T09:37:46.139-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-9] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: host = localhost:8080
+2025-01-13T09:37:46.139-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-9] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: accept-encoding = gzip, deflate, br
+2025-01-13T09:37:46.139-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-9] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: connection = keep-alive
+2025-01-13T09:37:46.139-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-9] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: content-length = 79
+2025-01-13T09:37:46.569-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-9] l.m.ris.Security.UserDetailsServiceImpl  : Rol asignado al usuario: ROLE_Unico rol
+2025-01-13T09:37:46.571-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-9] luismis.mx.ris.Security.Jwt.JwtUtil      : Estructura de las claims antes de generar el token: {roles=[ROLE_Unico rol], userId=1}
+2025-01-13T09:37:59.590-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-10] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: authorization = Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6WyJST0xFX1VuaWNvIHJvbCJdLCJ1c2VySWQiOjEsInN1YiI6ImpvaG4uZG9lQGV4YW1wbGUuY29tIiwiaWF0IjoxNzM2NzgxNDMzLCJleHAiOjE3MzY4Njc4MzN9.oiMQIabwjpCakdjwoKcP2F_Km2SOH8c_BJ4k7w8eNpg
+2025-01-13T09:37:59.594-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-10] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: user-agent = PostmanRuntime/7.43.0
+2025-01-13T09:37:59.594-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-10] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: accept = */*
+2025-01-13T09:37:59.594-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-10] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: cache-control = no-cache
+2025-01-13T09:37:59.594-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-10] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: postman-token = c8784591-6289-46f7-aee6-e678f0fa2e91
+2025-01-13T09:37:59.594-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-10] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: host = localhost:8080
+2025-01-13T09:37:59.594-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-10] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: accept-encoding = gzip, deflate, br
+2025-01-13T09:37:59.596-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-10] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: connection = keep-alive
+2025-01-13T09:37:59.596-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-10] l.mx.ris.Security.Jwt.JwtRequestFilter   : Token JWT extraído: eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6WyJST0xFX1VuaWNvIHJvbCJdLCJ1c2VySWQiOjEsInN1YiI6ImpvaG4uZG9lQGV4YW1wbGUuY29tIiwiaWF0IjoxNzM2NzgxNDMzLCJleHAiOjE3MzY4Njc4MzN9.oiMQIabwjpCakdjwoKcP2F_Km2SOH8c_BJ4k7w8eNpg
+2025-01-13T09:37:59.636-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-10] l.m.ris.Security.UserDetailsServiceImpl  : Rol asignado al usuario: ROLE_Unico rol
+2025-01-13T09:37:59.661-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-10] l.mx.ris.Security.Jwt.JwtRequestFilter   : Datos del usuario extraídos del JWT: Correo = john.doe@example.com, ID de usuario = 1, Roles = [ROLE_Unico rol]
+2025-01-13T09:37:59.735-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-10] l.m.r.Product.Controller.ProductService  : La búsqueda de productos se realizó correctamente
+2025-01-13T09:38:23.785-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-8] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: host = localhost:8080
+2025-01-13T09:38:23.785-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-8] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: connection = keep-alive
+2025-01-13T09:38:23.785-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-8] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: accept = */*
+2025-01-13T09:38:23.787-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-8] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: access-control-request-method = GET
+2025-01-13T09:38:23.787-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-8] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: access-control-request-headers = authorization,content-type
+2025-01-13T09:38:23.787-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-8] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: origin = http://127.0.0.1:5500
+2025-01-13T09:38:23.787-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-8] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: user-agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+2025-01-13T09:38:23.787-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-8] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: sec-fetch-mode = cors
+2025-01-13T09:38:23.787-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-8] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: sec-fetch-site = cross-site
+2025-01-13T09:38:23.787-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-8] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: sec-fetch-dest = empty
+2025-01-13T09:38:23.787-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-8] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: referer = http://127.0.0.1:5500/
+2025-01-13T09:38:23.787-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-8] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: accept-encoding = gzip, deflate, br, zstd
+2025-01-13T09:38:23.787-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-8] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: accept-language = es-US,es-419;q=0.9,es;q=0.8,en;q=0.7
+2025-01-13T09:46:29.407-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-4] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: content-type = application/json
+2025-01-13T09:46:29.408-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-4] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: user-agent = PostmanRuntime/7.43.0
+2025-01-13T09:46:29.408-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-4] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: accept = */*
+2025-01-13T09:46:29.408-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-4] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: cache-control = no-cache
+2025-01-13T09:46:29.408-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-4] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: postman-token = 952a2303-3a27-4190-ba43-6c4e04a6212a
+2025-01-13T09:46:29.408-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-4] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: host = localhost:8080
+2025-01-13T09:46:29.408-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-4] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: accept-encoding = gzip, deflate, br
+2025-01-13T09:46:29.408-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-4] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: connection = keep-alive
+2025-01-13T09:46:29.408-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-4] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: content-length = 345
+2025-01-13T09:46:44.456-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: content-type = application/json
+2025-01-13T09:46:44.457-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: authorization = Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6WyJST0xFX1VuaWNvIHJvbCJdLCJ1c2VySWQiOjEsInN1YiI6ImpvaG4uZG9lQGV4YW1wbGUuY29tIiwiaWF0IjoxNzM2NzgyNjY2LCJleHAiOjE3MzY4NjkwNjZ9.xjUdBzUN5QM75isNNWnCWvaZZc_ckewKLdtLxXYW5m0
+2025-01-13T09:46:44.457-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: user-agent = PostmanRuntime/7.43.0
+2025-01-13T09:46:44.457-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: accept = */*
+2025-01-13T09:46:44.458-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: cache-control = no-cache
+2025-01-13T09:46:44.458-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: postman-token = 00e300ce-c683-4600-b86b-8175caa18a3b
+2025-01-13T09:46:44.459-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: host = localhost:8080
+2025-01-13T09:46:44.459-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: accept-encoding = gzip, deflate, br
+2025-01-13T09:46:44.460-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: connection = keep-alive
+2025-01-13T09:46:44.462-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: content-length = 345
+2025-01-13T09:46:44.462-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Token JWT extraído: eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6WyJST0xFX1VuaWNvIHJvbCJdLCJ1c2VySWQiOjEsInN1YiI6ImpvaG4uZG9lQGV4YW1wbGUuY29tIiwiaWF0IjoxNzM2NzgyNjY2LCJleHAiOjE3MzY4NjkwNjZ9.xjUdBzUN5QM75isNNWnCWvaZZc_ckewKLdtLxXYW5m0
+2025-01-13T09:46:44.489-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.m.ris.Security.UserDetailsServiceImpl  : Rol asignado al usuario: ROLE_Unico rol
+2025-01-13T09:46:44.657-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.mx.ris.Security.Jwt.JwtRequestFilter   : Datos del usuario extraídos del JWT: Correo = john.doe@example.com, ID de usuario = 1, Roles = [ROLE_Unico rol]
+2025-01-13T09:46:45.652-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-5] l.m.r.Product.Controller.ProductService  : El producto fue registrado correctamente
+2025-01-13T09:47:03.521-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-2] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: content-type = application/json
+2025-01-13T09:47:03.521-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-2] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: user-agent = PostmanRuntime/7.43.0
+2025-01-13T09:47:03.521-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-2] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: accept = */*
+2025-01-13T09:47:03.521-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-2] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: cache-control = no-cache
+2025-01-13T09:47:03.521-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-2] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: postman-token = 5026d33c-8b23-4892-8227-806feef313d5
+2025-01-13T09:47:03.521-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-2] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: host = localhost:8080
+2025-01-13T09:47:03.521-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-2] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: accept-encoding = gzip, deflate, br
+2025-01-13T09:47:03.521-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-2] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: connection = keep-alive
+2025-01-13T09:47:03.521-06:00  INFO 22572 --- [ris] [http-nio-8080-exec-2] l.mx.ris.Security.Jwt.JwtRequestFilter   : Cabecera: content-length = 47
+2025-01-13T09:48:49.481-06:00  INFO 22572 --- [ris] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-13T09:48:49.508-06:00  INFO 22572 --- [ris] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-13T09:48:49.569-06:00  INFO 22572 --- [ris] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-13T09:48:49.605-06:00  INFO 22572 --- [ris] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-13T09:48:49.627-06:00  INFO 22572 --- [ris] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
